@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(gradient-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+h1{
+    color:white;
+    margin: 10px;
+}
+
+.container {
+    margin-left: 40px;
+}
+
+.user-data {
+    display: flex;
+    align-items: center;
+}
+
+.user-result {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:powderblue;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+
+table {
+    margin-top: 20px;
+    border: 1px solid;
+    width: 40%;
+    border-collapse: collapse;
+    color: #ffffff;
+  }
+
+tr:hover {
+    background-color:rgb(38, 54, 71);
+}  
+
+th, td {
+    align-items: center;
+    border: 2px solid;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
